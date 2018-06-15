@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>LakeFox Blog</title>
+    <link rel="import" href="wc:lakefox" mode="">
+    <link rel="stylesheet" href="./css/fontawesome-all.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://lakefox.net/assets/logo.png">
+  </head>
+  <body>
+    <lakefox src="nav">
+      <args>
+        {
+          "logo": "https://lakefox.net/assets/logo.png",
+          "links": [
+            {"name": "Home", "href": "/"},
+            {"name": "About", "href": "https://lakefox.net/#about"},
+            {"name": "Freelancing", "href": "https://lakefox.net"},
+            {"name": "Photos", "href": "/photos"}
+          ],
+          "instagram": "https://instagram.com/masonwright40",
+          "twitter": "https://twitter.com/masonwright40",
+          "facebook": "https://www.facebook.com/mason.wright.12979"
+        }
+      </args>
+    </lakefox>
+    <lakefox src="popup">
+      <args>
+        {
+          "title": "Subscribe To Our Newsletter",
+          "action": "",
+          "image": "https://images.unsplash.com/photo-1526584438842-0843e492c04f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=700&h=250&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=9b608bba21303ba8cdb3b280a89db066"
+        }
+      </args>
+    </lakefox>
+    <br>
+    <br>
+    <lakefox src="weather">
+      <args>
+        {
+          "lat": "38.532265",
+          "lng": "-93.522945",
+          "key": "478f6256c3cfe0da4acd89a95bac831c"
+        }
+      </args>
+    </lakefox>
+    <br>
+    <!-- NOTE: Posts ########################################################### -->
+    <br>
+    <lakefox src="post">
+      <args>
+        {
+          "title": "How to",
+          "image": "https://lh3.googleusercontent.com/Q6klo5FzEUIyhI-Y3JvWAVSLdYYSi9w30hSj5zSs82MNTYeKSBjmmlk1ICImDU7hn25YPTrARdZz_blT4z_IvXJn6tbcYfbGkFCRB1PVXTv-yRjH_z451RnFIcXFiHJQjoClqAES17yfGhxNAWbLrKNV8pFNXj2EZtBTLFux5zJ8koeaTK1u-j-zGCvdCypp6OD-UTv6q5kHCo28BbTnkmdWZaX-Ocj5EFKPbW11ZaUEmC8T7yNkYoMd1haDW2lPrSHX8yJ2BMH9ZbKFduRdDNHyzEOnmaMvZwqa9_wqhvK3xUtAybXzgS2ItB5QPumd0U514vnnTSCtEVPqZR2t7T87EYgo83YlILsn8zsimlKxL8_og54ErvC9A00r5FbQr5ee1C-EWUqoHcy4lNUU-N9LGAmrTncz6Yp0HGIU3TWybQxclouJHEbTg5HL-aN9ZnBkNPvOmEaV947O6WDsUW3XEsmdcWyUrpUVWqT8nWdgHoJ079Ovrm7AmGwqqRqxTTrSP0tT04MjF5kxzFzPPgfdkBdlD2wKC0iNcfA37EOl6zYU2g4unMXnuQQHgkuv-TcLdmCKTcMKYGe-xcjrb-d4CynAt-iLuoIJrf0=w863-h647-no",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "id": "howto"
+        }
+      </args>
+    </lakefox>
+    <br>
+    <br>
+    <lakefox src="audio">
+      <args>
+        {
+          "title": "Podcast: 153 | Websites Made Easy",
+          "url": "https://dcs.megaphone.fm/GLT5434393623.mp3?key=985400e22ba54a637794c1b8a6283f55"
+        }
+      </args>
+    </lakefox>
+    <br>
+    <br>
+    <lakefox src="post">
+      <args>
+        {
+          "title": "Features",
+          "image": "https://i.pinimg.com/originals/9b/07/ea/9b07ea4d0b3ea81bbb2b96198e335221.jpg",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "id": "features"
+        }
+      </args>
+    </lakefox>
+    <br>
+    <!-- NOTE: Posts ########################################################### -->
+    <br>
+    <script src="https://wcpm.lakefox.net/mustache.js" charset="utf-8"></script>
+    <script src="https://wcpm.lakefox.net/include.js" charset="utf-8"></script>
+  </body>
+</html>
